@@ -51,7 +51,7 @@ $app = new \Hybrid\Core\Application();
 After that point, you can register the service provider:
 
 ```php
-$app->provider( \Hybrid\Customize\ServiceProvider::class );
+$app->provider( \Hybrid\Customize\CustomizeServiceProvider::class );
 ```
 
 This is basically going to set up and ready any JS-based customizer controls.
